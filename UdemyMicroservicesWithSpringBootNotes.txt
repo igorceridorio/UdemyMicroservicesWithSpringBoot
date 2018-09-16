@@ -1,0 +1,35 @@
+Dynamic scale up and down:
+
+    - naming server (eureka)
+    - ribbon (client side load balancing)
+    - feign (easier REST clientes)
+
+Visibility and monitoring:
+
+    - zipkin distributed tracing
+    - netflix api gateway
+
+Main advantages of microservices:
+
+    - new technology and process adpatation
+    - dynamic scaling
+    - faster release cycles
+
+Condiguration stack for each microservice:
+
+    - PROD, STAGE, QA, DEV
+
+1 - Spring Cloud Config Server
+
+    -Responsible for centralizing the configurations of all the micrsoervices within an environment. It stores all the configuration
+    inside a git repository. It is the centralized microservices configuration.
+
+    - Dependency: actuator provides monitoring abilities to the project.
+
+Project:
+
+    Name: limits-service
+    Dependencies: web, dev-tools, actuator, config-client
+
+    Name: spring-cloud-config-server
+    Dependencies: dev-tools, config-server
