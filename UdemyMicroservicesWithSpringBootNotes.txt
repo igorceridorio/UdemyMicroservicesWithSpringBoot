@@ -33,3 +33,6 @@ Project:
 
     Name: spring-cloud-config-server
     Dependencies: dev-tools, config-server
+
+    Name: currency-exchange-service
+    Dependencies: web, dev-tools, actuator, config client
