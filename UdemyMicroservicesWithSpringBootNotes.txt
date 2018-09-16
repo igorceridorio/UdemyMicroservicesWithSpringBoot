@@ -36,3 +36,6 @@ Project:
 
     Name: currency-exchange-service
     Dependencies: web, dev-tools, actuator, config client
+
+    Name: currency-conversion-service
+    Dependencies: web, dev-tools, actuator, config client
