@@ -39,3 +39,6 @@ Project:
 
     Name: currency-conversion-service
     Dependencies: web, dev-tools, actuator, config client
+
+Spring Feign:
+    - makes easier the connection amongst different micro services
