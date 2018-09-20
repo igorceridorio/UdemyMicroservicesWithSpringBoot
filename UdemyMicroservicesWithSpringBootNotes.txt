@@ -42,3 +42,6 @@ Project:
 
 Spring Feign:
     - makes easier the connection amongst different micro services
+
+Spring Riboon:
+    - client side load balancing
