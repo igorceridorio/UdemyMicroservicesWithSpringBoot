@@ -40,8 +40,14 @@ Project:
     Name: currency-conversion-service
     Dependencies: web, dev-tools, actuator, config client
 
+    Name: netflix-eureka-naming-server
+    Dependencies: eureka-server, config client, actuator, dev-tools
+
 Spring Feign:
     - makes easier the connection amongst different micro services
 
 Spring Riboon:
     - client side load balancing
+
+Spring Eureka:
+    - naming service
