@@ -43,11 +43,17 @@ Project:
     Name: netflix-eureka-naming-server
     Dependencies: eureka-server, config client, actuator, dev-tools
 
+    Name: netflix-zuul-api-gateway-server
+    Dependencies: zuul, eureka-discovery, actuator, dev-tools
+
 Spring Feign:
     - makes easier the connection amongst different micro services
 
 Spring Riboon:
     - client side load balancing
 
-Spring Eureka:
+Netflix Eureka:
     - naming service
+
+Netflix Zuul:
+    - api gateway
