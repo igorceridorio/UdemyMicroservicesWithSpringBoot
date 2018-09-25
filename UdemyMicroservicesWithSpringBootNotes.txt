@@ -57,3 +57,6 @@ Netflix Eureka:
 
 Netflix Zuul:
     - api gateway
+
+Spring Cloud Sleuth:
+    - distributed tracing
