@@ -60,3 +60,12 @@ Netflix Zuul:
 
 Spring Cloud Sleuth:
     - distributed tracing
+
+Zipkin Distributed Tracing Server:
+    - consolidated view for the logging of all the application
+    
+    -> make zipkin tracing server listen on rabbit mq
+
+        - on windows' cmd:
+            set RABBIT_URI=amqp://localhost
+            java -jar zipkin-server-2.7.0-exec.jar
